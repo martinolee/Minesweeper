@@ -10,6 +10,8 @@ import UIKit
 
 class MinesweeperViewController: UIViewController {
     
+    @IBOutlet var mineCountView: UIView!
+    
     @IBOutlet var restartButton: UIButton!
     
     override func viewDidLoad() {
